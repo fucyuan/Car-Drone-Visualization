@@ -1,0 +1,46 @@
+# Catkin build artifacts
+build/
+devel/
+install/
+logs/
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Catkin workspace (symlink to system file, must be after !CMakeLists.txt)
+src/CMakeLists.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled Object files
+*.o
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
