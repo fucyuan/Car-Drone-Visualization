@@ -2,7 +2,7 @@
   <arg name="odom" default="/Odom_high_freq"/>
   <arg name="output_frame" default="world"/>
 
-  <arg name="mesh_resource" default="package://drone_visualization/meshes/yunque-M.dae"/>
+  <arg name="mesh_resource" default="package://drone_visualization/meshes/quad_mid360.dae"/>
   <arg name="robot_scale" default="1.0"/>
   <arg name="rotate_yaw_deg" default="0.0"/>
 
