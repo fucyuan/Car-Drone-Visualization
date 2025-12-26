@@ -15,6 +15,9 @@ Makefile
 # Catkin workspace (symlink to system file, must be after !CMakeLists.txt)
 src/CMakeLists.txt
 
+# Catkin workspace marker
+.catkin_workspace
+
 # Python
 __pycache__/
 *.py[cod]
